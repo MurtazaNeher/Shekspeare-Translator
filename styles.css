@@ -148,4 +148,132 @@ p {
     flex-direction: column;
 }
 
-@media (max-width: 900px) {}
+@media (max-width: 900px) {
+    body {
+        font-family: 'Nunito', sans-serif;
+        background-color: white;
+        text-align: center;
+    }
+    p {
+        font-size: 1.2rem;
+        font-family: "Lucida Console", "Courier New", monospace;
+        text-align: justify;
+    }
+    .hero {
+        text-align: center;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .hero .heading {
+        font-size: 2.1rem;
+        color: royalblue;
+        /* padding-left: 0.5rem; */
+    }
+    .hero .heroImg {
+        border: 3px solid wheat;
+        border-radius: 7rem;
+        height: 7rem;
+        width: 7rem;
+    }
+    .inputBox {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        width: 85%;
+        height: 140px;
+        border: 2px solid royalblue;
+        border-radius: 0.3rem;
+        display: block;
+        margin: auto;
+        padding: 1rem 1rem;
+        font-size: 17px;
+    }
+    .btnClear {
+        margin: 2rem 1rem 2rem 1rem;
+        background-color: white;
+        color: black;
+        border: 1.5px solid black;
+        cursor: pointer;
+        font-size: 21px;
+        border-radius: 3px;
+    }
+    .btnClear:hover {
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+    }
+    .btnTranslate {
+        margin: 2rem 1rem 2rem 1rem;
+        background-color: royalblue;
+        color: white;
+        border: 1.5px solid black;
+        cursor: pointer;
+        font-size: 21px;
+        border-radius: 3px;
+    }
+    .btnTranslate:hover {
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+    }
+    .outputHeading {
+        font-size: 2rem;
+        color: royalblue;
+        font-weight: 700;
+        text-transform: lowercase;
+    }
+    .outputBox {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        background-color: azure;
+        width: 85%;
+        height: 140px;
+        border: 2px solid royalblue;
+        border-radius: 0.3rem;
+        display: block;
+        margin: auto;
+        padding: 1rem 1rem;
+        font-size: 20px;
+        text-align: start;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .footer {
+        background-color: royalblue;
+        margin-top: 3rem;
+        height: 170px;
+        padding-top: 0.1rem;
+    }
+    .footer-header {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .btn-S {
+        font-size: 25px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: white;
+        position: center;
+        transition: all 0.5s;
+        z-index: 1;
+        display: inline;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-weight: 900;
+    }
+    .btn-S:hover {
+        color: black;
+    }
+    .nameSocial {
+        font-size: 15px;
+        font-weight: 100;
+        display: flex;
+        flex-direction: column;
+    }
+}
