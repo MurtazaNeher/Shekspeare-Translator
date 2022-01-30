@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +10,83 @@
     <script src="https://kit.fontawesome.com/ccbe6a25e7.js" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
 
-    <header class = "hero">
+
+    <header class="hero">
         <img class="hero heroImg" src="images/img.png" />
-        <h1 class = "hero heading" >Shekspeare's Voice</h1>
+        <h1 class="hero heading">Shekspeare's Voice</h1>
     </header>
 
-    <p>Enter your text here and know in what Shekspeare say it !!!</p>
+    <p>Enter your text here and know in what way Shekspeare say it !!!</p>
 
-    
+
+    <textarea class="inputBox" id="txt-input" placeholder="Enter the text you want to translate..."></textarea>
+
+
+    <button id="btn-clear" class="btnClear">clear</button>
+
+    <button class="btnTranslate" id="btn-translate">Translate</button>
+
+
+    <!-- <p class="outputHeading">OUTPUT</p> -->
+    <div class="outputBox" id="txt-output"></div>
+    <script src="app.js" type="text/javascript"></script>
+
+    <footer class="footer">
+
+        <div class="footer-header" c style="color: white;"><span style="color: black;">DEV :</span> Murtaza Neher Wala</div>
+        <div class="footer-header" style="color: black;margin-top: 0.5rem;margin-bottom: 0.5rem;">Connect with me socially</div>
+
+        <span>
+
+            <button class="btn-S" onclick="window.location.href='https://www.instagram.com/murtaza_neher_wala/?utm_medium=copy_link'">
+              <i class="fab fa-instagram"></i> <a class = "nameSocial"> Instagram </a> </span>
+        </button>
+
+        </span>
+
+        <span>
+
+
+            <button class="btn-S" onclick="window.location.href='https://twitter.com/Murtaza_neher?t=KjQ1giMXozsd4enZDMxNYg&s=03'">
+
+              <i  class="fab fa-twitter"></i> <a class = "nameSocial"> Twitter </a> 
+             
+          </button>
+
+        </span>
+
+
+
+        <span>
+
+            <button class="btn-S" onclick="window.location.href='https://github.com/MurtazaNeher'">
+
+              <i class="fab fa-github"></i> <a class = "nameSocial"> Github </a> 
+             
+          </button>
+
+
+        </span>
+
+
+
+        <span>
+
+    <button class="btn-S" onclick="window.location.href='https://murtazanw.netlify.app/'">
+
+        <i class="fas fa-server"></i><a class = "nameSocial"> Portfolio </a> 
+
+
+      
+  </button>
+</span>
+
+
+    </footer>
+
 </body>
+
 </html>
