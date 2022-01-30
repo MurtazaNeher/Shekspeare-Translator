@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    /* margin: 1px auto; */
+    width: 100%;
+    /* background-image: image() ; */
+background-color: white;
+;
+}
+:root {
+    --primary-color: #facc15;
+    --dark-gray: #64748b;
+}
+
+p{
+    font-size: 1.2rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+
+}
+
+
+
+.hero{
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.hero .heading{
+    font-size: 2.5rem;
+    color: royalblue;
+    padding-left: 2rem;
+
+}
+
+.hero .heroImg{
+    border:3px solid wheat;
+    border-radius: 7rem;
+    height: 7rem;
+    width: 7rem;
+}
+
