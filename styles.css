@@ -41,7 +41,7 @@ p {
     margin-top: 3rem;
     margin-bottom: 3rem;
     width: 60%;
-    height: 180px;
+    height: 140px;
     border: 2px solid royalblue;
     border-radius: 0.3rem;
     display: block;
@@ -56,7 +56,7 @@ p {
     color: black;
     border: 2px solid black;
     cursor: pointer;
-    font-size: 1.7rem;
+    font-size: 23px;
     border-radius: 3px;
 }
 
@@ -72,7 +72,7 @@ p {
     color: white;
     border: 2px solid black;
     cursor: pointer;
-    font-size: 1.7rem;
+    font-size: 23px;
     border-radius: 3px;
 }
 
@@ -94,7 +94,7 @@ p {
     margin-bottom: 3rem;
     background-color: azure;
     width: 60%;
-    height: 180px;
+    height: 140px;
     border: 2px solid royalblue;
     border-radius: 0.3rem;
     display: block;
@@ -108,19 +108,19 @@ p {
 .footer {
     background-color: royalblue;
     margin-top: 3rem;
-    height: 195px;
+    height: 170px;
     padding-top: 0.1rem;
 }
 
 .footer-header {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: 23px;
+    font-size: 19px;
     font-weight: 500;
 }
 
 .btn-S {
-    font-size: 30px;
+    font-size: 25px;
     cursor: pointer;
     border: none;
     outline: none;
@@ -142,8 +142,10 @@ p {
 }
 
 .nameSocial {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 100;
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 900px) {}
