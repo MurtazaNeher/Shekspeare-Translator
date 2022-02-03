@@ -35,6 +35,7 @@ p {
     border-radius: 7rem;
     height: 7rem;
     width: 7rem;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
 }
 
 .inputBox {
@@ -48,6 +49,7 @@ p {
     margin: auto;
     padding: 1rem 1rem;
     font-size: 17px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .btnClear {
@@ -64,6 +66,7 @@ p {
     background-color: black;
     color: white;
     border-radius: 5px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
 }
 
 .btnTranslate {
@@ -80,6 +83,7 @@ p {
     background-color: black;
     color: white;
     border-radius: 5px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
 }
 
 .outputHeading {
@@ -103,6 +107,7 @@ p {
     font-size: 20px;
     text-align: start;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 3px 3px 20px royalblue;
 }
 
 .footer {
